@@ -21,6 +21,7 @@ conda create -n your_env_name python=3.9 -y
 conda activate your_env_name
 pip install --upgrade pip
 pip install -r requirements.txt
+```
 
 ## Train
 
