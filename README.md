@@ -23,24 +23,33 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 ## Train
-Run the following commands to train the model on different benchmarks.  
-The argument `--device "0"` indicates that GPU 0 will be used for training.
 
-### ImageNet-R (10 Tasks):
+Run the following commands to train the model on different benchmarks.  
+The argument `--device "0"` specifies the GPU ID used for training.
+
+### ImageNet-R (10 Tasks)
+
+```bash
+python main.py --device "0" --config ./exps/imgr10.json
 ```
-python main.py --device "0" --config ./exps/imgr10.json 
+
+### CIFAR-100 (10 Tasks)
+
+```bash
+python main.py --device "0" --config ./exps/cifar10.json
 ```
-### CIFAR100  (10 Tasks):
+
+### ImageNet-A (10 Tasks)
+
+```bash
+python main.py --device "0" --config ./exps/imga10.json
 ```
-python main.py --device "0" --config ./exps/cifar10.json 
+
+### CUB-200 (10 Tasks)
+
+```bash
+python main.py --device "0" --config ./exps/cub10.json
 ```
-### ImageNet-A (10 Tasks):
-```
-python main.py --device "0" --config ./exps/imga10.json 
-```
-### CUB-200 (10 Tasks):
-```
-python main.py --device "0" --config ./exps/cub10.json 
 ```
 
 ## Contact
