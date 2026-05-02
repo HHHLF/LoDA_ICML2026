@@ -51,7 +51,6 @@ python main.py --device "0" --config ./exps/imga10.json
 ```bash
 python main.py --device "0" --config ./exps/cub10.json
 ```
-```
 
 ## Contact
 If you have any questions about our work or this repository, please contact us by email.
