@@ -61,7 +61,7 @@ If you have any questions about our work or this repository, please contact us b
 @inproceedings{
 he2026task,
 title={Task-Driven Subspace Decomposition for Knowledge Sharing and Isolation in LoRA-based Continual Learning},
-author={Lingfeng He and De Cheng and Huaijie Wang and Xiaofeng Zhu and Xi Yang and Nannan Wang and Xinbo Gao},
+author={Lingfeng He and De Cheng and Huaijie Wang and Xi Yang and Nannan Wang and Xinbo Gao},
 booktitle={Forty-third International Conference on Machine Learning},
 year={2026}
 }
