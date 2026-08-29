@@ -8,6 +8,8 @@ Continual Learning (CL) requires models to sequentially adapt to new tasks witho
 
 ![framework](./framework.png) The overall framework of our proposed method *Low-rank Decomposition and Adaptation* (LoDA).
 
+# [The core energy-based decomposition of LoDA is in methods/decomposed_lora.py]
+
 ## Dataset preparation
 * Create a folder for datasets in your workspace directory `./datasets/`
 * **CIFAR 100**: Should be automatically downloaded
